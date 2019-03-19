@@ -1,5 +1,7 @@
 package com.uzdz.策略模式.project;
 
+import com.uzdz.策略模式.project.head.HeadBehavior;
+
 /**
  * 鸭子超类
  * @author uzdz
@@ -8,9 +10,27 @@ package com.uzdz.策略模式.project;
  */
 public abstract class Duck {
 
-    public void swim() {
-        System.out.println("i am swimming");
+    private HeadBehavior headBehavior;
+
+    public Duck(HeadBehavior headBehavior) {
+        this.headBehavior = headBehavior;
     }
 
-    public abstract void head();
+    public void swim() {
+        System.out.println("i can swim");
+    }
+
+    public void head() {
+        headBehavior.head();
+    }
+
+    public abstract void walk();
+
+    /**
+     * 策略模式支持运行时更改行为策略
+     * @param headBehavior
+     */
+    public void updateHead(HeadBehavior headBehavior) {
+        this.headBehavior = headBehavior;
+    }
 }
