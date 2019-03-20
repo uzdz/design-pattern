@@ -1,4 +1,4 @@
-package com.uzdz.观察者模式.project.custom.api;
+package com.uzdz.行为型模式.观察者模式.project.custom.api;
 
 /**
  * 观察者对象接口

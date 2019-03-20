@@ -1,6 +1,6 @@
-package com.uzdz.观察者模式.project.custom.company;
+package com.uzdz.行为型模式.观察者模式.project.custom.company;
 
-import com.uzdz.观察者模式.project.custom.api.Observer;
+import com.uzdz.行为型模式.观察者模式.project.custom.api.Observer;
 
 /**
  * uzdz的公司

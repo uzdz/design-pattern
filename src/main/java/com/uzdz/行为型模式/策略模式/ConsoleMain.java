@@ -1,10 +1,10 @@
-package com.uzdz.策略模式;
+package com.uzdz.行为型模式.策略模式;
 
 
-import com.uzdz.策略模式.project.Duck;
-import com.uzdz.策略模式.project.DuckMarket;
-import com.uzdz.策略模式.project.head.imp.GreenHead;
-import com.uzdz.策略模式.project.head.imp.RedHead;
+import com.uzdz.行为型模式.策略模式.project.Duck;
+import com.uzdz.行为型模式.策略模式.project.DuckMarket;
+import com.uzdz.行为型模式.策略模式.project.head.imp.GreenHead;
+import com.uzdz.行为型模式.策略模式.project.head.imp.RedHead;
 
 public class ConsoleMain {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.uzdz.策略模式.project;
+package com.uzdz.行为型模式.策略模式.project;
 
-import com.uzdz.策略模式.project.head.HeadBehavior;
+import com.uzdz.行为型模式.策略模式.project.head.HeadBehavior;
 
 /**
  * 鸭子菜市场 - 子类

@@ -1,4 +1,4 @@
-package com.uzdz.策略模式.project.head;
+package com.uzdz.行为型模式.策略模式.project.head;
 
 /**
  * 定义策略接口基类

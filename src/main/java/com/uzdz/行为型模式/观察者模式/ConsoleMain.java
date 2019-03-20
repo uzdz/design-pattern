@@ -1,11 +1,11 @@
-package com.uzdz.观察者模式;
+package com.uzdz.行为型模式.观察者模式;
 
-import com.uzdz.观察者模式.project.custom.company.DongCompany;
-import com.uzdz.观察者模式.project.custom.company.UzdzCompany;
-import com.uzdz.观察者模式.project.custom.observatory.MeteorologicalObservatory;
-import com.uzdz.观察者模式.project.java.company.JavaDongCompany;
-import com.uzdz.观察者模式.project.java.company.JavaUzdzCompany;
-import com.uzdz.观察者模式.project.java.observatory.JavaMeteorologicalObservatory;
+import com.uzdz.行为型模式.观察者模式.project.custom.company.DongCompany;
+import com.uzdz.行为型模式.观察者模式.project.custom.company.UzdzCompany;
+import com.uzdz.行为型模式.观察者模式.project.custom.observatory.MeteorologicalObservatory;
+import com.uzdz.行为型模式.观察者模式.project.java.company.JavaDongCompany;
+import com.uzdz.行为型模式.观察者模式.project.java.company.JavaUzdzCompany;
+import com.uzdz.行为型模式.观察者模式.project.java.observatory.JavaMeteorologicalObservatory;
 
 public class ConsoleMain {
     public static void main(String[] args) {

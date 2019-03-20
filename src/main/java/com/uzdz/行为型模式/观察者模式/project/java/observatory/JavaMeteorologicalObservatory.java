@@ -1,4 +1,4 @@
-package com.uzdz.观察者模式.project.java.observatory;
+package com.uzdz.行为型模式.观察者模式.project.java.observatory;
 
 import java.util.Observable;
 

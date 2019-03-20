@@ -1,6 +1,6 @@
-package com.uzdz.策略模式.project.head.imp;
+package com.uzdz.行为型模式.策略模式.project.head.imp;
 
-import com.uzdz.策略模式.project.head.HeadBehavior;
+import com.uzdz.行为型模式.策略模式.project.head.HeadBehavior;
 
 /**
  * 绿头鸭

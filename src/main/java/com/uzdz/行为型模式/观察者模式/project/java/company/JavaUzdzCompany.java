@@ -1,4 +1,4 @@
-package com.uzdz.观察者模式.project.java.company;
+package com.uzdz.行为型模式.观察者模式.project.java.company;
 
 import java.util.Observable;
 import java.util.Observer;

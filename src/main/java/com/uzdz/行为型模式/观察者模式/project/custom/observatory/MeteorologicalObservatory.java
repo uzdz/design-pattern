@@ -1,7 +1,7 @@
-package com.uzdz.观察者模式.project.custom.observatory;
+package com.uzdz.行为型模式.观察者模式.project.custom.observatory;
 
-import com.uzdz.观察者模式.project.custom.api.Observer;
-import com.uzdz.观察者模式.project.custom.api.Subject;
+import com.uzdz.行为型模式.观察者模式.project.custom.api.Observer;
+import com.uzdz.行为型模式.观察者模式.project.custom.api.Subject;
 
 import java.util.ArrayList;
 import java.util.List;
