@@ -3,7 +3,7 @@ package com.uzdz.结构型模式.装饰器模式.project.custom.entity;
 import com.uzdz.结构型模式.装饰器模式.project.custom.entity.abs.OriginalSell;
 
 /**
- * 中国式咖啡
+ * 中国式咖啡(Component)
  * @author uzdz
  * @date: 2019/3/21 15:20
  * @since 0.1.0

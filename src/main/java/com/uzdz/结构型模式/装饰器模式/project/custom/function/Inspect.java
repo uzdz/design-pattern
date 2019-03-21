@@ -4,7 +4,7 @@ import com.uzdz.结构型模式.装饰器模式.project.custom.entity.abs.Origin
 import com.uzdz.结构型模式.装饰器模式.project.custom.decorator.BasicsSellDecorator;
 
 /**
- * 装饰类实现 - 检查售卖商品是否合法
+ * 装饰类实现(NewComponent) - 检查售卖商品是否合法
  * @author uzdz
  * @date: 2019/3/21 15:29
  * @since 0.1.0
