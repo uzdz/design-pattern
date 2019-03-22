@@ -1,7 +1,7 @@
 package com.uzdz.创建型模式.单例模式.project.双重校验锁;
 
 /**
- * 懒汉式 - 线程不安全
+ * 双重校验锁 - 线程安全
  * @author uzdz
  * @date: 2019/3/22 10:30
  * @since 0.1.0
