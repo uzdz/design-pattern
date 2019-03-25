@@ -13,16 +13,19 @@ public class ConsoleMain {
         Controller controller = new Controller();
 
         // 卧室灯
-        LightOnCommand bedroomLightOn = new LightOnCommand(new Light("卧室"));
-        LightOffCommand bedroomLightOff = new LightOffCommand(new Light("卧室"));
+        Light bedroomLight = new Light("卧室");
+        LightOnCommand bedroomLightOn = new LightOnCommand(bedroomLight);
+        LightOffCommand bedroomLightOff = new LightOffCommand(bedroomLight);
 
         // 客厅灯
-        LightOnCommand livingRoomLightOn = new LightOnCommand(new Light("客厅"));
-        LightOffCommand livingRoomLightOff = new LightOffCommand(new Light("客厅"));
+        Light livingRoomLight = new Light("客厅");
+        LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
+        LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
 
         // 客厅电视
-        TvOnCommand livingRoomTvOn = new TvOnCommand(new Tv("客厅"));
-        TvOffCommand livingRoomTvOff = new TvOffCommand(new Tv("客厅"));
+        Tv livingRoomTv = new Tv("客厅");
+        TvOnCommand livingRoomTvOn = new TvOnCommand(livingRoomTv);
+        TvOffCommand livingRoomTvOff = new TvOffCommand(livingRoomTv);
 
         // 将设置好的命令绑定到控制器上
         controller.setCommand(0, bedroomLightOn, bedroomLightOff);
