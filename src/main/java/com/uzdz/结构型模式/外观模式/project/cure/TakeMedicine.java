@@ -2,7 +2,7 @@ package com.uzdz.结构型模式.外观模式.project.cure;
 
 /**
  * 取药
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/25 16:16
  * @since 0.1.0
  */

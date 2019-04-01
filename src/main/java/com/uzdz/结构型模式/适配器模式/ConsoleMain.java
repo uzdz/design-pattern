@@ -7,7 +7,7 @@ import com.uzdz.结构型模式.适配器模式.project.passport.abs.Passport;
 
 public class ConsoleMain {
     public static void main(String[] args) {
-        ChinaPassport chinaPassport = new ChinaPassport("uzdz");
+        ChinaPassport chinaPassport = new ChinaPassport("Uzdz");
 
         Passport passport = new PassportAdapter(chinaPassport);
 

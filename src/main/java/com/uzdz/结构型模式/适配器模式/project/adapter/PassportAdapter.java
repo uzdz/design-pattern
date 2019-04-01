@@ -1,11 +1,10 @@
 package com.uzdz.结构型模式.适配器模式.project.adapter;
 
-import com.uzdz.结构型模式.适配器模式.project.passport.ChinaPassport;
 import com.uzdz.结构型模式.适配器模式.project.passport.abs.Passport;
 
 /**
  * 通过中国护照申请美国护照的适配器
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/25 14:25
  * @since 0.1.0
  */

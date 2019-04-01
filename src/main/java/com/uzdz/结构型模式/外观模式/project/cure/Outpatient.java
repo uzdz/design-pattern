@@ -2,7 +2,7 @@ package com.uzdz.结构型模式.外观模式.project.cure;
 
 /**
  * 门诊
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/25 16:14
  * @since 0.1.0
  */

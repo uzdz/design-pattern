@@ -4,7 +4,7 @@ package com.uzdz.结构型模式.组合模式.project.composite;
  * 抽象组件（Component）学院和专业称为机构
  *
  * 默认为每个方法提供默认的实现
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 16:35
  * @since 0.1.0
  */

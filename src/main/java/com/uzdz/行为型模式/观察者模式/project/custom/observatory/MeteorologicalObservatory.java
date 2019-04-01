@@ -9,7 +9,7 @@ import java.util.Objects;
 
 /**
  * 气象台 - 手动实现方式
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/20 16:04
  * @since 0.1.0
  */

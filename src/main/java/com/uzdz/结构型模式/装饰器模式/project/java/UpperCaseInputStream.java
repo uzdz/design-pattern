@@ -6,7 +6,7 @@ import java.io.InputStream;
 
 /**
  * 自定义一个输入流转换
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/21 18:29
  * @since 0.1.0
  */

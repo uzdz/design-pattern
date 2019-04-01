@@ -4,7 +4,7 @@ import com.uzdz.结构型模式.组合模式.project.composite.OrganizationCompo
 
 /**
  * Leaf（叶子节点）专业
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 16:42
  * @since 0.1.0
  */

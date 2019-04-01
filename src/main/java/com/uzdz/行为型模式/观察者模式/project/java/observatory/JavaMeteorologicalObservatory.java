@@ -5,7 +5,7 @@ import java.util.Observable;
 /**
  * 气象台 - Java默认支持方式
  * Java实现的观察者提供了部分提取数据的API
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/20 16:04
  * @since 0.1.0
  */

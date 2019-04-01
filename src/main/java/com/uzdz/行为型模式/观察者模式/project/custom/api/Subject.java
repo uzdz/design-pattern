@@ -2,7 +2,7 @@ package com.uzdz.行为型模式.观察者模式.project.custom.api;
 
 /**
  * 被观察者对象接口
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/20 15:55
  * @since 0.1.0
  */

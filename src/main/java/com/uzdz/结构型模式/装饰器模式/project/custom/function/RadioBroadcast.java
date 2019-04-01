@@ -5,7 +5,7 @@ import com.uzdz.结构型模式.装饰器模式.project.custom.decorator.BasicsS
 
 /**
  * 装饰类实现(NewComponent) - 广播售卖结果
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/21 15:29
  * @since 0.1.0
  */

@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 合并后的餐厅
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 14:42
  * @since 0.1.0
  */

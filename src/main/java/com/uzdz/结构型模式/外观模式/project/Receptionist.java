@@ -6,7 +6,7 @@ import com.uzdz.结构型模式.外观模式.project.cure.TakeMedicine;
 
 /**
  * 接待处
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/25 16:17
  * @since 0.1.0
  */

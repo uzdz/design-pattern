@@ -5,7 +5,7 @@ import java.util.Observer;
 
 /**
  * dong的公司
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/20 16:00
  * @since 0.1.0
  */

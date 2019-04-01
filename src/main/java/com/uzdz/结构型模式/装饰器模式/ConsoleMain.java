@@ -33,7 +33,7 @@ public class ConsoleMain {
 
         System.out.println("<以下是通过java提供的装饰器模式，自定义新增一个把文件所有字母变成大写的装饰者类>");
 
-        UpperCaseInputStream upperCaseInputStream = new UpperCaseInputStream(new BufferedInputStream(new FileInputStream(new File("src/main/java/com/uzdz/结构型模式/装饰器模式/project/java/change.txt"))));
+        UpperCaseInputStream upperCaseInputStream = new UpperCaseInputStream(new BufferedInputStream(new FileInputStream(new File("src/main/java/com/Uzdz/结构型模式/装饰器模式/project/java/change.txt"))));
 
         int ch = -1;
 

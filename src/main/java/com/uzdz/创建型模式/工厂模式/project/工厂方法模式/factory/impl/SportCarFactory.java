@@ -6,7 +6,7 @@ import com.uzdz.创建型模式.工厂模式.project.工厂方法模式.factory.
 
 /**
  * 越野汽车库
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/22 17:47
  * @since 0.1.0
  */

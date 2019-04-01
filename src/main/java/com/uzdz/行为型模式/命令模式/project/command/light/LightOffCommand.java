@@ -5,7 +5,7 @@ import com.uzdz.行为型模式.命令模式.project.command.Command;
 
 /**
  * 灯 - 关闭命令
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/25 11:13
  * @since 0.1.0
  */

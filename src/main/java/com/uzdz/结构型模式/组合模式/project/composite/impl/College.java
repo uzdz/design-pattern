@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * composite（树枝节点）学院
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 16:40
  * @since 0.1.0
  */

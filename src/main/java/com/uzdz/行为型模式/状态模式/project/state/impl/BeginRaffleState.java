@@ -7,7 +7,7 @@ import java.util.Random;
 
 /**
  * 抽奖中状态
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 17:40
  * @since 0.1.0
  */

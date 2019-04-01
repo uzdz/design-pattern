@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * 热饮：茶
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 11:36
  * @since 0.1.0
  */

@@ -5,7 +5,7 @@ import com.uzdz.创建型模式.工厂模式.project.抽象工厂模式.factory.
 
 /**
  * 驾驶某辆汽车的公共类
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/22 20:01
  * @since 0.1.0
  */

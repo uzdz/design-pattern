@@ -7,7 +7,7 @@ import com.uzdz.行为型模式.状态模式.project.state.impl.WaitRaffleState;
 
 /**
  * 抽奖活动主程序
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 17:42
  * @since 0.1.0
  */

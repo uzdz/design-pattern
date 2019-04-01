@@ -5,7 +5,7 @@ import com.uzdz.行为型模式.状态模式.project.state.State;
 
 /**
  * 等待扣除积分状态 (不能抽奖)
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 17:39
  * @since 0.1.0
  */

@@ -5,7 +5,7 @@ import com.uzdz.行为型模式.状态模式.project.state.State;
 
 /**
  * 发放奖品中状态
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 17:40
  * @since 0.1.0
  */

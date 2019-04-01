@@ -4,7 +4,7 @@ import com.uzdz.行为型模式.观察者模式.project.custom.api.Observer;
 
 /**
  * uzdz的公司
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/3/20 16:00
  * @since 0.1.0
  */

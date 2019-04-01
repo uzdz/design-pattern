@@ -2,7 +2,7 @@ package com.uzdz.行为型模式.状态模式.project.state;
 
 /**
  * 状态接口
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 17:37
  * @since 0.1.0
  */

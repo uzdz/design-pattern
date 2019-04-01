@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 热饮模版
- * @author uzdz
+ * @author Uzdz
  * @date: 2019/4/1 11:10
  * @since 0.1.0
  */
