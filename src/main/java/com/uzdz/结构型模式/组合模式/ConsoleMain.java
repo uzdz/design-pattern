@@ -1,9 +1,9 @@
 package com.uzdz.结构型模式.组合模式;
 
-import com.uzdz.结构型模式.组合模式.project.Composite.OrganizationComponent;
-import com.uzdz.结构型模式.组合模式.project.Composite.impl.College;
-import com.uzdz.结构型模式.组合模式.project.Composite.impl.Department;
-import com.uzdz.结构型模式.组合模式.project.Composite.impl.University;
+import com.uzdz.结构型模式.组合模式.project.composite.OrganizationComponent;
+import com.uzdz.结构型模式.组合模式.project.composite.impl.College;
+import com.uzdz.结构型模式.组合模式.project.composite.impl.Department;
+import com.uzdz.结构型模式.组合模式.project.composite.impl.University;
 
 public class ConsoleMain {
     public static void main(String[] args) {

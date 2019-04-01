@@ -1,6 +1,6 @@
-package com.uzdz.结构型模式.组合模式.project.Composite.impl;
+package com.uzdz.结构型模式.组合模式.project.composite.impl;
 
-import com.uzdz.结构型模式.组合模式.project.Composite.OrganizationComponent;
+import com.uzdz.结构型模式.组合模式.project.composite.OrganizationComponent;
 
 /**
  * Leaf（叶子节点）专业

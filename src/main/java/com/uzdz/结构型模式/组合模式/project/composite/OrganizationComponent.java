@@ -1,4 +1,4 @@
-package com.uzdz.结构型模式.组合模式.project.Composite;
+package com.uzdz.结构型模式.组合模式.project.composite;
 
 /**
  * 抽象组件（Component）学院和专业称为机构
