@@ -26,7 +26,7 @@ public abstract class Flyweight {
     }
 
     /**
-     * 定义业务操作
+     * 定义业务操作（随着环境变化而变化，由子类实现）
      * @param extrinsic
      */
     public abstract void operate(int extrinsic);
