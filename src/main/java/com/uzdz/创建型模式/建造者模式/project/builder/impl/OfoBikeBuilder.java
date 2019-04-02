@@ -1,0 +1,38 @@
+package com.uzdz.创建型模式.建造者模式.project.builder.impl;
+
+import com.uzdz.创建型模式.建造者模式.project.builder.BikeBuilder;
+import com.uzdz.创建型模式.建造者模式.project.entity.Bike;
+
+/**
+ * ofo单车生产线
+ * @author uzdz
+ * @date: 2019/4/2 16:57
+ * @since 0.1.0
+ */
+public class OfoBikeBuilder implements BikeBuilder {
+
+    /**
+     * 拥有单车对象
+     */
+    Bike bike = new Bike();
+
+    @Override
+    public void buildTyres() {
+        bike.setTyre("黑色轮胎");
+    }
+
+    @Override
+    public void buildFrame() {
+        bike.setFrame("黄色车架");
+    }
+
+    @Override
+    public void buildGPS() {
+        bike.setGps("ofo定制版GPS定位装置");
+    }
+
+    @Override
+    public Bike getBike() {
+        return bike;
+    }
+}
