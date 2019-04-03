@@ -29,14 +29,14 @@ public class FlyweightFactory {
         //池中有该对象
         if(pool.containsKey(extrinsic)) {
             flyweight = pool.get(extrinsic);
-            System.out.print("已有 " + extrinsic + " 直接从池中取---->");
+            System.out.println("[已有 " + extrinsic + " 直接从池中取]");
         } else {
             //根据外部状态创建享元对象
             flyweight = new ConcreteFlyweight(extrinsic);
 
             //放入池中
             pool.put(extrinsic, flyweight);
-            System.out.print("创建 " + extrinsic + " 并从池中取出---->");
+            System.out.println("[创建 " + extrinsic + " 并从池中取出]");
         }
 
         return flyweight;
