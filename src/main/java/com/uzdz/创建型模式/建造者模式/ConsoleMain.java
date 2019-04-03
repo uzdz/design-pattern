@@ -1,24 +1,22 @@
 package com.uzdz.创建型模式.建造者模式;
 
 import com.uzdz.创建型模式.建造者模式.project.EngineeringDepartment;
-import com.uzdz.创建型模式.建造者模式.project.builder.BikeBuilder;
 import com.uzdz.创建型模式.建造者模式.project.builder.impl.MoBikeBuilder;
-import com.uzdz.创建型模式.建造者模式.project.builder.impl.OfoBikeBuilder;
 import com.uzdz.创建型模式.建造者模式.project.entity.Bike;
 
 public class ConsoleMain {
     public static void main(String[] args) {
-        // 建造摩拜单车 <建造者>
-        BikeBuilder moBikeBuilder = new MoBikeBuilder();
 
-        // <监工>
-        EngineeringDepartment ed1 = new EngineeringDepartment(moBikeBuilder);
+        System.out.println("用户想生产一个默认流水线的摩拜自行车：");
+        Bike bike = new EngineeringDepartment(new MoBikeBuilder()).bulid();
+        System.out.println(bike);
 
-        // 指导组装 <建造实例(监工负责监督，建造者实际建造)>
-        ed1.Construct();
+        System.out.println("用户想自定制摩拜自行车的配件：");
+        Bike customBike = new EngineeringDepartment(new MoBikeBuilder())
+                .changeFrame("uzdz的车架")
+                .changeGPS("uzdz的gps")
+                .changeTyres("uzdz的车轮").bulid();
+        System.out.println(customBike);
 
-        // 产出单车，体现建造和显示分离 <获取最终生成结果>
-        Bike moBike = moBikeBuilder.getBike();
-        System.out.println(moBike);
     }
 }

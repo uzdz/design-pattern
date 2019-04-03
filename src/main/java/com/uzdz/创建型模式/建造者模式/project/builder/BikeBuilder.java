@@ -29,4 +29,22 @@ public interface BikeBuilder {
      * @return
      */
     Bike getBike();
+
+    /**
+     * 更换GPS
+     * @param gps
+     */
+    void changeGPS(String gps);
+
+    /**
+     * 更换车架
+     * @param frame
+     */
+    void changeFrame(String frame);
+
+    /**
+     * 更换轮胎
+     * @param tyres
+     */
+    void changeTyres(String tyres);
 }

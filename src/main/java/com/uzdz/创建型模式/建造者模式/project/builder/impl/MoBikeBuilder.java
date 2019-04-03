@@ -4,7 +4,7 @@ import com.uzdz.创建型模式.建造者模式.project.builder.BikeBuilder;
 import com.uzdz.创建型模式.建造者模式.project.entity.Bike;
 
 /**
- * 摩拜单车生产线
+ * 摩拜单车默认情况下生产线
  * @author uzdz
  * @date: 2019/4/2 16:56
  * @since 0.1.0
@@ -34,5 +34,20 @@ public class MoBikeBuilder implements BikeBuilder {
     @Override
     public Bike getBike() {
         return bike;
+    }
+
+    @Override
+    public void changeGPS(String gps) {
+        bike.setGps(gps);
+    }
+
+    @Override
+    public void changeFrame(String frame) {
+        bike.setFrame(frame);
+    }
+
+    @Override
+    public void changeTyres(String tyres) {
+        bike.setTyre(tyres);
     }
 }
