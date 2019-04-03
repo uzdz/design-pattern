@@ -53,7 +53,7 @@ public class EngineeringDepartment {
     /**
      * 指导组装单车
      */
-    public Bike bulid() {
+    public Bike build() {
         return this.bikeBuilder.getBike();
     }
 }
