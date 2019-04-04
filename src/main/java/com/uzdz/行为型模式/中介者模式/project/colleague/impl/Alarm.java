@@ -19,11 +19,17 @@ public class Alarm extends Colleague {
     }
 
     /**
-     * 手动触发闹铃
+     * 操作闹铃打开
      */
     public void doOpen() {
-        System.out.println("手动触发闹铃响起了!");
         sendMessage(1);
+    }
+
+    /**
+     * 操作闹铃关闭
+     */
+    public void doClose() {
+        sendMessage(0);
     }
 
     /**

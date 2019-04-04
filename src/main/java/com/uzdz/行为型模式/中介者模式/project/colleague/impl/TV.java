@@ -19,6 +19,20 @@ public class TV extends Colleague {
     }
 
     /**
+     * 操作打开电视
+     */
+    public void doOpen() {
+        sendMessage(1);
+    }
+
+    /**
+     * 操作关闭电视
+     */
+    public void doClose() {
+        sendMessage(0);
+    }
+
+    /**
      * 打开电视
      */
     public void open() {

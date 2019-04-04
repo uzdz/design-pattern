@@ -57,8 +57,7 @@ public class ConcreteMediator implements Mediator {
 
                 // 闹铃响起后，通知咖啡机制作咖啡
                 CoffeeMachine coffeeMachine = (CoffeeMachine) colleagueHashMap.get(interMap.get("CoffeeMachine"));
-                coffeeMachine.open();
-
+                coffeeMachine.doOpen();
             } else {
                 System.out.println("收到闹铃关闭通知！");
 
@@ -74,13 +73,13 @@ public class ConcreteMediator implements Mediator {
             } else {
                 System.out.println("收到咖啡机关闭通知！");
 
+                // 关闭咖啡机
+                CoffeeMachine coffeeMachine = (CoffeeMachine) colleagueHashMap.get(interMap.get("CoffeeMachine"));
+                coffeeMachine.close();
+
                 // 打开电视机
                 TV tv = (TV) colleagueHashMap.get(interMap.get("TV"));
-                tv.open();
-
-                // 关闭闹铃
-                Alarm alarm = (Alarm) colleagueHashMap.get(interMap.get("Alarm"));
-                alarm.close();
+                tv.doOpen();
             }
         } else if (colleagueHashMap.get(colleagueName) instanceof TV) {
             if (state == 1) {
@@ -88,6 +87,10 @@ public class ConcreteMediator implements Mediator {
 
                 TV tv = (TV) colleagueHashMap.get(interMap.get("TV"));
                 tv.open();
+
+                // 关闭闹铃
+                Alarm alarm = (Alarm) colleagueHashMap.get(interMap.get("Alarm"));
+                alarm.doClose();
             } else {
                 System.out.println("收到电视机机关闭通知！");
 

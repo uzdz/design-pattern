@@ -28,14 +28,28 @@ public class CoffeeMachine extends Colleague {
     }
 
     /**
-     * 开机，制作咖啡
+     * 操作咖啡机打开
+     */
+    public void doOpen() {
+        sendMessage(1);
+    }
+
+    /**
+     * 操作咖啡机关闭
+     */
+    public void doClose() {
+        sendMessage(0);
+    }
+
+    /**
+     * 制作咖啡
      */
     public void open() {
         System.out.println("开始制作咖啡！");
     }
 
     /**
-     * 关机，制作咖啡完毕
+     * 制作咖啡完毕
      */
     public void close() {
         System.out.println("咖啡制作完毕，关机！");
